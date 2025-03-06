@@ -6,6 +6,11 @@ root.title("Calculadora básica") # titulo
 root.resizable(0, 0)
 root.geometry("296x265")
 
+def envia_boton(valor):
+    anterior = pantalla.get()
+    pantalla.delete(0, END)
+    pantalla.insert(0, str(anteriorvalor)
+
 pantalla = Entry(root,
                  width=22,
                  bg="black",
@@ -21,7 +26,7 @@ boton_1 = Button(root, text="1",
                  bg="white",
                  fg="red",
                  borderwidth=0,
-                 cursor="hand2").grid(row=1, column=0, padx=1, pady=1)
+                 cursor="hand2", command=lambda : envia_boton(1)).grid(row=1, column=0, padx=1, pady=1)
 
 boton_2 = Button(root, text="2",
                  width=9,
@@ -29,7 +34,7 @@ boton_2 = Button(root, text="2",
                  bg="white",
                  fg="red",
                  borderwidth=0,
-                 cursor="hand2").grid(row=1, column=1, padx=1, pady=1)
+                 cursor="hand2", command=lambda : envia_boton(2))).grid(row=1, column=1, padx=1, pady=1)
 
 boton_3 = Button(root, text="3",
                  width=9,
@@ -37,7 +42,7 @@ boton_3 = Button(root, text="3",
                  bg="white",
                  fg="red",
                  borderwidth=0,
-                 cursor="hand2").grid(row=1, column=2, padx=1, pady=1)
+                 cursor="hand2", command=lambda : envia_boton(3)).grid(row=1, column=2, padx=1, pady=1)
 
 boton_4 = Button(root, text="4",
                  width=9,
@@ -45,7 +50,7 @@ boton_4 = Button(root, text="4",
                  bg="white",
                  fg="red",
                  borderwidth=0,
-                 cursor="hand2").grid(row=2, column=0, padx=1, pady=1)
+                 cursor="hand2", command=lambda : envia_boton(4)).grid(row=2, column=0, padx=1, pady=1)
 
 boton_5 = Button(root, text="5",
                  width=9,
@@ -53,7 +58,7 @@ boton_5 = Button(root, text="5",
                  bg="white",
                  fg="red",
                  borderwidth=0,
-                 cursor="hand2").grid(row=2, column=1, padx=1, pady=1)
+                 cursor="hand2", command=lambda : envia_boton(5)).grid(row=2, column=1, padx=1, pady=1)
 
 boton_6 = Button(root, text="6",
                  width=9,
@@ -61,7 +66,7 @@ boton_6 = Button(root, text="6",
                  bg="white",
                  fg="red",
                  borderwidth=0,
-                 cursor="hand2").grid(row=2, column=2, padx=1, pady=1)
+                 cursor="hand2", command=lambda : envia_boton(6)).grid(row=2, column=2, padx=1, pady=1)
 
 boton_7 = Button(root, text="7",
                  width=9,
@@ -69,7 +74,7 @@ boton_7 = Button(root, text="7",
                  bg="white",
                  fg="red",
                  borderwidth=0,
-                 cursor="hand2").grid(row=3, column=0, padx=1, pady=1)
+                 cursor="hand2", command=lambda : envia_boton(7)).grid(row=3, column=0, padx=1, pady=1)
 
 boton_8 = Button(root, text="8",
                  width=9,
@@ -77,7 +82,7 @@ boton_8 = Button(root, text="8",
                  bg="white",
                  fg="red",
                  borderwidth=0,
-                 cursor="hand2").grid(row=3, column=1, padx=1, pady=1)
+                 cursor="hand2", command=lambda : envia_boton(8)).grid(row=3, column=1, padx=1, pady=1)
 
 boton_9 = Button(root, text="9",
                  width=9,
@@ -85,7 +90,7 @@ boton_9 = Button(root, text="9",
                  bg="white",
                  fg="red",
                  borderwidth=0,
-                 cursor="hand2").grid(row=3, column=2, padx=1, pady=1)
+                 cursor="hand2", command=lambda : envia_boton(9)).grid(row=3, column=2, padx=1, pady=1)
 
 boton_0 = Button(root, text="0",
                  width=9,
@@ -93,7 +98,7 @@ boton_0 = Button(root, text="0",
                  bg="white",
                  fg="red",
                  borderwidth=0,
-                 cursor="hand2").grid(row=4, column=1, padx=1, pady=1)
+                 cursor="hand2", command=lambda : envia_boton(0)).grid(row=4, column=1, padx=1, pady=1)
 
 boton_igual = Button(root, text="=",
                  width=9,
@@ -101,7 +106,7 @@ boton_igual = Button(root, text="=",
                  bg="red",
                  fg="white",
                  borderwidth=0,
-                 cursor="hand2").grid(row=4, column=2, padx=1, pady=1)
+                 cursor="hand2", ).grid(row=4, column=2, padx=1, pady=1)
 
 boton_punto = Button(root, text=".",
                  width=9,
