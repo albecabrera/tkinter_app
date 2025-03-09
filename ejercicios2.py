@@ -118,3 +118,12 @@ La frase es esta: "El valor 769.97 es bastante más grande que 4. ¿Am I a strin
 valor = 769.97
 print(f'"El valor 769.97 es bastante más grande que 4. ¿Am I a string? The answer is True."')
 
+numero_1 = 4
+numero_2 = 769.97
+texto = "am I a string"
+decision = True
+
+print(numero_1)
+print(numero_2)
+print(texto)
+print(decision)
