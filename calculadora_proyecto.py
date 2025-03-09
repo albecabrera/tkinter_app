@@ -15,13 +15,13 @@ print("--- Calculadora de exponentes ---")
 # 2. El usuario podrá decidir que operación desea antes de introducir los operandos (números con los que operar). Con el fin de informar al usuario de cada opción, crea un menú con varios print(). Por ejemplo, print("1-Suma").
 '''
 Hola, elija una opción:
-1- Suma.
-2- Resta.
-3- Multiplicación
-4- División
-5- Módulo
-6- Exponente
-Teclee un número y pulse ENTER'
+1- Suma. ✅
+2- Resta.✅
+3- Multiplicación✅
+4- División✅
+5- Módulo✅
+6- Exponente✅
+Teclee un número y pulse ENTER' ✅
 '''
 # Mostrar el menú de opciones
 print("Hola, elija una opción")
