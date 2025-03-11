@@ -7,3 +7,10 @@ saludar("Bijirita", 15)
 saludar("Alfredo", 17)
 saludar("Mati", 9) 
 saludar("Cordula", 49)
+
+
+def suma(numero1, numero2):
+    return numero1 + numero2
+resultado = suma(10, 50)
+
+print(resultado)
