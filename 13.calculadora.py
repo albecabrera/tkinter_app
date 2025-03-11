@@ -67,7 +67,7 @@ if eleccion in [1, 2, 3, 4, 5, 6]:
         print(f"El resultado del módulo es: {numero1 % numero2}")
     elif eleccion == 6:
         print(f"El resultado del exponente es: {numero1 ** numero2}")
-elif eleccion == 7:
-    print("Saliendo del programa...")
-    break 
+    elif eleccion == 7:
+        print("Saliendo del programa...")
+    break
 
