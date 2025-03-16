@@ -1,3 +1,5 @@
+import os
+
 texto = ("Adipiscing et pariatur voluptate, adipiscing fugiat et ut.Consectetur id, duis nostrud fugiat ad. Nostrud fugiat ad incididunt sed eiusmod. Ad incididunt sed eiusmod officia. Sed eiusmod officia magna, adipiscing. Magna adipiscing, exercitation ex anim reprehenderit dolor. Ex anim reprehenderit dolor aute. Reprehenderit dolor aute labore. Aute, labore ea eu laborum id anim amet.")
 print(texto) 
 texto = """Adipiscing et pariatur voluptate, adipiscing fugiat et ut.Consectetur id, duis nostrud fugiat ad. Nostrud fugiat ad incididunt sed eiusmod. Ad incididunt sed eiusmod officia. Sed eiusmod officia magna, adipiscing. Magna adipiscing, exercitation ex anim reprehenderit dolor. Ex anim reprehenderit dolor aute. Reprehenderit dolor aute labore. Aute, labore ea eu laborum id anim amet."""
@@ -15,3 +17,4 @@ PUNTO="."
 
 for color in colores:
     print("{}{}{}".format(GUION, color.capitalize(), PUNTO))
+    
