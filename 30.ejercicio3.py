@@ -1,0 +1,1 @@
+texto = "Occaecat laboris, labore ut esse mollit irure sunt. Ut esse mollit irure. Mollit irure sunt reprehenderit est adipiscing commodo, laborum. Reprehenderit est adipiscing commodo laborum. Adipiscing commodo laborum velit ad duis laboris. Laborum velit ad duis laboris dolor minim sint."
