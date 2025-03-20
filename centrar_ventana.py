@@ -11,7 +11,7 @@ root.title("Curso de Tkinter der programación fácil")
 root.geometry()
 
 # Ajustes de ventana y pantalla
-root.eval('tk::PlaceWindow . center')
+root.eval('tk::PlaceWindow . center') # Posibilita centrar la ventana y 
 
 # Widgets 
 
